@@ -1,0 +1,69 @@
+body{
+    margin:0px;
+    font-family: Arial;
+}
+#forum{
+    margin: 0px auto;
+    text-align: center;
+}
+
+#header{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-image: url('https://npo.conf.nstu.ru/site/img/header-bg.png');
+    height: 265px;
+}
+
+#header ul{
+    list-style-type: none;
+}
+
+#header ul li{
+   display: inline;
+    margin-right: 50px;
+    font-size: 14pt;
+}
+
+
+#content{
+    text-align: left;
+    width: 720px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#content h2{
+    line-height: 40px;
+}
+
+#content a{
+    text-decoration: none;
+}
+
+#sidebar{
+    display: inline-block;
+    vertical-align: top;
+    widht:200px;
+}
+
+#bottom{
+    background-image: url("https://npo.conf.nstu.ru/site/img/footer-bg.png");
+    height: 60px;
+}
+
+#bottom p{
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 250px;
+    font-size: 10pt;
+}
+
+.button{
+    padding: 30px;
+    background-color: orange;
+    border-radius: 10px
+}
+
+.button:hover{
+    background-color: orangered;
+}
